@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    "build",
+    "compile",
+    "source"
+  ],
+  "edges": [
+    [
+      "build",
+      "compile"
+    ],
+    [
+      "compile",
+      "source"
+    ]
+  ]
+}
